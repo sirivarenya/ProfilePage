@@ -9,55 +9,180 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="background">
-            <div id="wrapper">
-                <header>
-                    <div id="logo" class="headerItem">
-                        <img src="logo.png" alt="logo" id="titleImage">
-                        <span id="titleText">Meetmax</span>
+        <div id="wrapper">
+            <header>
+                <div id="logo" class="headerItem">
+                    <img src="logo.png" alt="logo" id="titleImage">
+                    <span id="titleText">Meetmax</span>
+                </div>
+                <div id="headerMid" class="headerItem">
+                    <input type="text" id="headerSearch" placeholder="&#128269; Search for something here..."></input>
+                </div>
+                <div id="userProfile" class="headerItem">
+                    <span id="userName">Saleh Ahmed</span>
+                    <img src="profilepic.jpg" alt="pic" id="userPic">
+                </div>
+            </header>
+            <div id="mainContent">
+                <div id="box1">
+                    <div id="menu">
+                        <ul id="menuList">
+                            <a href="#">
+                                <li>Feed</li>
+                            </a>
+                            <a href="#">
+                                <li>My Community</li>
+                            </a>
+                            <a href="#">
+                                <li>Messages</li>
+                            </a>
+                            <a href="#">
+                                <li>Notifications</li>
+                            </a>
+                            <a href="#">
+                                <li>Explore</li>
+                            </a>
+                            <a href="#">
+                                <li>Profile</li>
+                            </a>
+                            <a href="#">
+                                <li>Settings</li>
+                            </a>
+                            <a href="#">
+                                <li>Logout</li>
+                            </a>
+                        </ul>
                     </div>
-                    <div id="headerMid" class="headerItem">
-                        <input type="text" id="headerSearch" placeholder="&#128269; Search for something here..."></input>
-                    </div>
-                    <div id="userProfile" class="headerItem">
-                        <span id="userName">Saleh Ahmed</span>
-                        <img src="profilepic.jpg" alt="pic" id="userPic">
-                    </div>
-                </header>
-                <div id="mainContent">
-                    <div id="box1">
-                        <div id="menu">
-                            <ul id="menuList">
-                                <a href="#">
-                                    <li>Feed</li>
-                                </a>
-                                <a href="#">
-                                    <li>My Community</li>
-                                </a>
-                                <a href="#">
-                                    <li>Messages</li>
-                                </a>
-                                <a href="#">
-                                    <li>Notifications</li>
-                                </a>
-                                <a href="#">
-                                    <li>Explore</li>
-                                </a>
-                                <a href="#">
-                                    <li>Profile</li>
-                                </a>
-                                <a href="#">
-                                    <li>Settings</li>
-                                </a>
-                                <a href="#">
-                                    <li>Logout</li>
-                                </a>
-                            </ul>
+                </div>
+
+                <div class="events">
+                    <div class="box box-1">
+        
+                        <div class="heading">
+                          You Might Like
+                          <a id="seeall" href="#"> See All</a>
+                        </div>
+                        <span>
+                          <hr>
+                        </span>
+                        <div class="info">
+                          <div>
+                            <img  src="profile-picture.jpg" id="output" width="200" />
+                          </div>
+                    
+                          <div class="desc">
+                            <div class="name">
+                              John Doe
+                            </div>
+                    
+                            <div class="role">
+                              CEO of RandomCompany
+                            </div>     
+                          </div>      
+                        </div>
+                        
+                        <div class="socials">
+                          <a href="https://www.linkedin.com/"><img id="icon" src="linkedin-icon.png" alt="LinkedIn"></a>
+                          <a href="https://www.facebook.com/"><img id="icon" src="facebook-icon.png" alt="Facebook"></a>
+                          <a href="https://www.twitter.com/"><img id="icon" src="twitter-icon.png" alt="Twitter"></a>
+                          <a href="https://www.instagram.com/"><img id="icon" src="instagram-icon.png" alt="Instagram"></a>
+                        </div>
+                    
+                        <div class="buttons">
+                          <button class="ignore">Ignore</button>
+                          <button class="follow">Follow</button>
+                        </div>
+                      </div>
+                    
+                      <div class="box box-2">
+                        <div class="heading">
+                            Recent Events
+                            <a id="dots" href="#"><img src="menu-icon.png" alt="menu" id="menu"></a>
+                        </div>
+                        <hr>
+                          <div class="birthdays">
+                            <div class="flex">
+                              <div>
+                                <img  src="diploma-icon.png" id="output-1" width="200" />
+                              </div>
+                        
+                              <div class="up-bdays">
+                                <div class="name">
+                                  Graduation Ceremony
+                                </div>
+                        
+                                <div class="role">
+                                  The graduation ceremony is also sometimes called....
+                                </div>     
+                              </div> 
+                            </div>
+                            <hr>   
+                            <p>8 seen</p>
+                          </div>
+                    
+                          <div class="birthdays">
+                            <div class="flex">
+                              <div class="profile-pic">
+                                <img  src="camera-icon.png" id="output-1" width="200" />
+                              </div>
+                        
+                              <div class="up-bdays">
+                                <div class="name">
+                                  Photography Ideas
+                                </div>
+                        
+                                <div class="role">
+                                  Reflections, Reflections work because they can create....
+                                </div>     
+                              </div> 
+                            </div>
+                            <hr>   
+                            <p>11 seen</p>
+                          </div>
+                      </div>
+                    
+                      <div class="box box-3">
+                        <div class="heading">
+                          Birthdays
+                          <a id="seeall-box3" href="#"> See All</a>        
+                        </div>
+                        <hr>
+                        <div class="send-msg">
+                        <div class="info-box3">
+                          <div class="profile-pic">
+                            <img  src="profile-picture.jpg" id="output-1" width="200" />
+                          </div>
+                    
+                          <div>
+                            <div class="name">
+                              John Doe
+                            </div>
+                    
+                            <div class="role">
+                              Birthday
+                            </div>     
+                          </div>      
+                        </div>
+                    
+                        <div class="text-snd">
+                            <input type="text" placeholder="Write on his inbox" id="input-1">
+                            <button class="send"><img src="send-icon.png" alt="send"></button>
                         </div>
                     </div>
-                    
-                </div>            
-            </div>
+                          <div class="birthdays flex">
+                            <div class="profile-pic">
+                              <img  src="icons8-birthday-80.png" id="output-1" width="200" />
+                            </div>
+                      
+                            <div class="up-bdays">
+                              <div class="name">
+                                Upcoming Birthdays
+                              </div>
+                      
+                              <div class="role">
+                                See 12 others have upcoming birthdays
+                              </div>     
+                            </div>                
         </div>
     </body>
 </html>
